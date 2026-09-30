@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO & Meta Tags (German) -->
+  <title>Bhushan Patel | Produktion, Qualitätskontrolle &amp; Supply Chain</title>
+  <meta name="description" content="Offizielles Portfolio &amp; Lebenslauf von Bhushan Patel. Spezialist für Produktion, Qualitätskontrolle, ERP-Systeme (Microsoft Dynamics 365, SAP) und internationales Supply Chain Management. Dessau, Deutschland.">
+  <meta name="keywords" content="Bhushan Patel, Lebenslauf, CV, Produktion, Qualitätskontrolle, Supply Chain, ERP, Microsoft Dynamics 365, SAP, BWT Pool Products, Vitalgrün, Dessau, B.Pharm, MSc International Business">
+  <meta name="author" content="Bhushan Patel">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bhushan Patel | Produktion, Qualitätskontrolle &amp; Supply Chain">
+  <meta property="og:description" content="Ich verbinde technisches Produktionsverständnis mit kaufmännischem Know-how. Vollständiger Lebenslauf online einsehbar.">
+  <meta property="og:image" content="assets/profile.jpg">
+
+  <!-- Google Fonts: Bricolage Grotesque, Instrument Sans, IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top 2px Orange Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+
+  <!-- Page Load Curtain Wipe -->
+  <div class="page-curtain" id="page-curtain">
+    <div class="curtain-content">
+      <span class="curtain-pulse-dot"></span>
+      <span>WERKBANK &amp; LIEFERKETTE — INITIALISIERUNG</span>
+    </div>
+  </div>
+
+  <!-- Custom Cursor (Desktop Only) -->
+  <div class="custom-cursor-dot" id="custom-cursor-dot"></div>
+  <div class="custom-cursor-ring" id="custom-cursor-ring"></div>
+
+  <!-- ==========================================================================
+       STICKY NAVBAR (LEBENSLAUF AS 1ST LINK)
+       ========================================================================== -->
+  <header class="site-nav">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Startseite">
+        <span>BP</span><span class="dot">.</span>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav class="nav-links-wrap" aria-label="Hauptnavigation">
+        <a href="#profil" class="nav-link" data-i18n="nav.profil">Profil</a>
+        <a href="#erfahrung" class="nav-link" data-i18n="nav.erfahrung">Erfahrung</a>
+        <a href="#ausbildung" class="nav-link" data-i18n="nav.ausbildung">Ausbildung</a>
+        <a href="#faehigkeiten" class="nav-link" data-i18n="nav.faehigkeiten">Fähigkeiten</a>
+        <a href="#projekte" class="nav-link" data-i18n="nav.projekte">Projekte</a>
+        <a href="#zertifikate" class="nav-link" data-i18n="nav.zertifikate">Zertifikate</a>
+        <a href="#als-naechstes" class="nav-link" data-i18n="nav.alsNaechstes">Als Nächstes</a>
+        <a href="#kontakt" class="nav-link" data-i18n="nav.kontakt">Kontakt</a>
+      </nav>
+
+      <!-- Right Action & Controls Group -->
+      <div class="nav-controls-group">
+        <!-- Language Switcher: DE | EN -->
+        <div class="lang-toggle-wrap" role="group" aria-label="Sprache wählen / Select language">
+          <button type="button" class="lang-btn active" id="lang-btn-de" onclick="setLanguage('de')" title="Deutsch">DE</button>
+          <span class="lang-divider">/</span>
+          <button type="button" class="lang-btn" id="lang-btn-en" onclick="setLanguage('en')" title="English">EN</button>
+        </div>
+
+        <!-- Dark / Light Mode Toggle -->
+        <button type="button" class="theme-toggle-btn btn-magnetic" id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Designmodus wechseln (Hell/Dunkel)" title="Designmodus wechseln">
+          <span class="theme-icon-sun" id="theme-icon-sun" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="theme-icon-moon" id="theme-icon-moon" aria-hidden="true" style="display: none;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+          <span class="theme-label-mono" id="theme-mode-text">HELL</span>
+        </button>
+
+        <!-- Right Action: Download PDF -->
+        <a href="assets/Bhushan_Patel_Lebenslauf.pdf" download="Bhushan_Patel_Lebenslauf.pdf" class="nav-cta-btn btn-magnetic cv-download-btn" id="nav-cta-btn" title="Offiziellen Lebenslauf (PDF) herunterladen">
+          <span data-i18n="nav.cvBtn">Lebenslauf (PDF)</span>
+          <span style="font-family: var(--font-mono); color: var(--accent-orange);">↓</span>
+        </a>
+
+        <!-- Mobile Burger Button -->
+        <button class="nav-burger" id="nav-burger-btn" aria-label="Menü öffnen">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="nav-mobile-menu" style="display: none; flex-direction: column; background: var(--bg-paper); padding: 1.5rem 2rem; border-bottom: var(--border-technical); gap: 1rem;">
+    <!-- Mobile Controls Strip -->
+    <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 0.75rem; border-bottom: var(--border-technical); gap: 0.75rem; flex-wrap: wrap;">
+      <div class="lang-toggle-wrap" role="group" aria-label="Sprache wählen">
+        <button type="button" class="lang-btn active" id="mobile-lang-btn-de" onclick="setLanguage('de')">DE</button>
+        <span class="lang-divider">/</span>
+        <button type="button" class="lang-btn" id="mobile-lang-btn-en" onclick="setLanguage('en')">EN</button>
+      </div>
+      <button type="button" class="theme-toggle-btn" id="mobile-theme-toggle-btn" onclick="toggleTheme()" aria-label="Designmodus wechseln">
+        <span class="theme-label-mono" id="mobile-theme-mode-text">HELLMODUS</span>
+      </button>
+    </div>
+
+    <a href="assets/Bhushan_Patel_Lebenslauf.pdf" download="Bhushan_Patel_Lebenslauf.pdf" class="nav-link cv-download-btn" style="color: var(--accent-orange); font-weight: 700;" data-i18n="nav.mobileCvBtn">Lebenslauf herunterladen (PDF) ↓</a>
+    <a href="#profil" class="nav-link" data-i18n="nav.profil">Profil</a>
+    <a href="#erfahrung" class="nav-link" data-i18n="nav.erfahrung">Erfahrung</a>
+    <a href="#ausbildung" class="nav-link" data-i18n="nav.ausbildung">Ausbildung</a>
+    <a href="#faehigkeiten" class="nav-link" data-i18n="nav.faehigkeiten">Fähigkeiten</a>
+    <a href="#projekte" class="nav-link" data-i18n="nav.projekte">Projekte</a>
+    <a href="#zertifikate" class="nav-link" data-i18n="nav.zertifikate">Zertifikate</a>
+    <a href="#als-naechstes" class="nav-link" data-i18n="nav.alsNaechstes">Als Nächstes</a>
+    <a href="#kontakt" class="nav-link" data-i18n="nav.kontakt">Kontakt</a>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION (TECHNICAL BLUEPRINT PARALLAX + TILTED PHOTO PRINT)
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <!-- Faint Blueprint Grid (shifts with mouse) -->
+      <div class="hero-blueprint-grid" id="hero-blueprint-grid"></div>
+
+      <div class="container hero-grid">
+        <!-- Hero Text & Headline -->
+        <div class="hero-text-col">
+          <div class="tech-label" style="margin-bottom: 1.25rem;" data-i18n="hero.techLabel">[ 00 ] PRODUKTION · QUALITÄT · SUPPLY CHAIN</div>
+
+          <!-- Mask Slide-up Title -->
+          <div class="hero-mask-wrap">
+            <h1 class="hero-main-title" id="hero-main-title">Bhushan Patel</h1>
+          </div>
+
+          <p class="hero-subline" data-i18n-html="hero.subline">
+            "Ich verbinde technisches Produktionsverständnis mit kaufmännischem <em>Know-how</em>."
+          </p>
+
+          <p class="hero-text" data-i18n="hero.desc">
+            Engagierter Fachmann mit Erfahrung in Produktion und Qualitätskontrolle sowie akademischem Hintergrund im internationalen Geschäftsmanagement. Aktuell vertiefe ich ERP-Systeme, Produktionsplanung und Produktionsadministration.
+          </p>
+
+          <!-- Status Chip with Pulsing Orange Dot -->
+          <div class="status-chip">
+            <span class="pulsing-orange-dot"></span>
+            <span data-i18n-html="hero.statusText">Aktuell: Produktion &amp; Qualitätskontrolle bei BWT Pool Products GmbH, Zörbig</span>
+          </div>
+
+          <!-- Contact Meta Bar (No Street Address in Hero) -->
+          <div class="hero-meta-strip">
+            <span class="hero-meta-item">
+              <span class="dim-annotation" data-i18n="hero.metaStandort">STANDORT:</span>
+              <span data-i18n="hero.locationText">Dessau, Deutschland</span>
+            </span>
+            <span style="color: var(--muted-line);">|</span>
+            <span class="hero-meta-item">
+              <span class="dim-annotation" data-i18n="hero.metaTel">TEL:</span>
+              <a href="tel:+491778013515">+49 1778013515</a>
+            </span>
+            <span style="color: var(--muted-line);">|</span>
+            <span class="hero-meta-item">
+              <span class="dim-annotation" data-i18n="hero.metaEmail">E-MAIL:</span>
+              <a href="mailto:bpatel7765@gmail.com">bpatel7765@gmail.com</a>
+            </span>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="hero-actions">
+            <a href="assets/Bhushan_Patel_Lebenslauf.pdf" download="Bhushan_Patel_Lebenslauf.pdf" class="btn-industrial btn-filled-orange btn-magnetic cv-download-btn" id="hero-btn-cv" title="Offiziellen 4-seitigen Lebenslauf herunterladen">
+              <span data-i18n="hero.btnCv">Lebenslauf herunterladen (PDF)</span>
+              <span style="font-family: var(--font-mono);">↓</span>
+            </a>
+
+            <a href="#profil" class="btn-industrial btn-outlined-petrol btn-magnetic">
+              <span data-i18n="hero.btnProfil">Profil ansehen</span>
+              <span style="font-family: var(--font-mono);">↓</span>
+            </a>
+
+            <a href="#kontakt" class="btn-industrial btn-outlined-petrol btn-magnetic">
+              <span data-i18n="hero.btnKontakt">Kontakt aufnehmen</span>
+              <span style="font-family: var(--font-mono);">→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Photo Print (Floating, Tilted, Masking Tape, Rotating Badge) -->
+        <div class="hero-photo-container">
+          <div class="photo-float-wrapper">
+            <!-- Misregistered solid orange block -->
+            <div class="photo-misregister-block"></div>
+
+            <!-- Photo paper card -->
+            <div class="photo-paper-frame">
+              <div class="photo-tape"></div>
+              <img src="assets/profile.jpg?v=2" alt="Bhushan Patel Porträt" class="photo-img" width="310" height="330" onerror="this.src='assets/images/bhushan_headshot.jpg'">
+              <div class="photo-caption">BHUSHAN PATEL // DESSAU</div>
+            </div>
+
+            <!-- Rotating Circular Text Badge -->
+            <div class="rotating-badge-wrap">
+              <svg class="rotating-badge-svg" viewBox="0 0 120 120">
+                <defs>
+                  <path id="circlePath" d="M 60, 60 m -44, 0 a 44,44 0 1,1 88,0 a 44,44 0 1,1 -88,0" />
+                </defs>
+                <text>
+                  <textPath id="rotating-badge-text" href="#circlePath" startOffset="0%">
+                    PRODUKTION • QUALITÄT • SUPPLY CHAIN •
+                  </textPath>
+                </text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INFINITE MARQUEE TICKER (MONO FONT, PAUSES ON HOVER)
+         ========================================================================== -->
+    <div class="ticker-wrap" aria-label="Schlagwörter-Laufband">
+      <div class="ticker-track">
+        <div class="ticker-item" id="ticker-item-1">ERP <span class="dot">·</span> Dynamics 365 <span class="dot">·</span> SAP <span class="dot">·</span> Power BI <span class="dot">·</span> Excel &amp; VBA <span class="dot">·</span> KANBAN <span class="dot">·</span> Lean Management <span class="dot">·</span> CAPA <span class="dot">·</span> Risikomanagement <span class="dot">·</span> Lieferkettenmanagement <span class="dot">·</span> Qualitätskontrolle <span class="dot">·</span></div>
+        <div class="ticker-item" id="ticker-item-2">ERP <span class="dot">·</span> Dynamics 365 <span class="dot">·</span> SAP <span class="dot">·</span> Power BI <span class="dot">·</span> Excel &amp; VBA <span class="dot">·</span> KANBAN <span class="dot">·</span> Lean Management <span class="dot">·</span> CAPA <span class="dot">·</span> Risikomanagement <span class="dot">·</span> Lieferkettenmanagement <span class="dot">·</span> Qualitätskontrolle <span class="dot">·</span></div>
+      </div>
+    </div>
+
+
+
+    <!-- ==========================================================================
+         01 — PROFIL SECTION
+         ========================================================================== -->
+    <section class="section" id="profil">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-editorial reveal-on-scroll">
+          <div>
+            <div class="section-num" data-i18n="profil.sectionNum">01 — PROFIL</div>
+            <h2 class="section-title" data-i18n-html="profil.title">Werdegang &amp; Fokus</h2>
+          </div>
+          <div class="section-line-run"></div>
+          <div class="dim-annotation">REF: BP-PRF-2026</div>
+        </div>
+
+        <div class="profil-grid reveal-on-scroll">
+          <div>
+            <p class="profil-lead-quote" data-i18n="profil.quote">
+              "Als Mitgründer von Vitalgrün sowie als Freelancer für US-amerikanische Unternehmen verfüge ich über Erfahrung in Lieferkettenmanagement, Produktbeschaffung, Produktdesign und operativen Geschäftsprozessen."
+            </p>
+            <p style="margin-top: 1.5rem; font-size: 1.05rem; color: var(--muted-text); line-height: 1.7;" data-i18n="profil.desc">
+              Meine tägliche Arbeit basiert auf Präzision an der Werkbank und Übersicht entlang der globalen Lieferkette. Ob Qualitätsprüfung von Fertigwaren, präziser PVC-Zuschnitt nach Zeichnung, Heißkeil- und Hochfrequenzschweißarbeiten oder ERP-gestützte Stücklisten- und Bestandsverwaltung – ich verbinde praktische Ausführung mit kaufmännischer Prozesssicherheit.
+            </p>
+          </div>
+
+          <!-- 3 Quick Facts separated by thin lines -->
+          <div class="profil-facts-col">
+            <div class="fact-item">
+              <div class="fact-num">3</div>
+              <div class="fact-label" data-i18n="profil.fact1Label">Sprachen</div>
+              <div class="fact-sub" data-i18n="profil.fact1Sub">Deutsch (B2), Englisch (Muttersprache), Hindi (fließend)</div>
+            </div>
+
+            <div class="fact-item">
+              <div class="fact-num" data-i18n="profil.fact2Num">MSc &amp; Bachelor</div>
+              <div class="fact-label" data-i18n="profil.fact2Label">Doppelter Abschluss</div>
+              <div class="fact-sub" data-i18n-html="profil.fact2Sub">Internationales Geschäftsmanagement (Berlin) &amp; Bachelor (Indien)</div>
+            </div>
+
+            <div class="fact-item" style="border-bottom: none; padding-bottom: 0;">
+              <div class="fact-num" style="font-size: 2.2rem;" data-i18n="profil.fact3Num">Indien → Deutschland</div>
+              <div class="fact-label" data-i18n="profil.fact3Label">Internationale Laufbahn</div>
+              <div class="fact-sub" data-i18n="profil.fact3Sub">Produktionserfahrung in Tier-1-Umgebungen und in der deutschen Industrie</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         02 — ERFAHRUNG ("LIEFERKETTEN-ROUTE")
+         ========================================================================== -->
+    <section class="section" id="erfahrung" style="border-top: var(--border-technical);">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-editorial reveal-on-scroll">
+          <div>
+            <div class="section-num" data-i18n="erfahrung.sectionNum">02 — ERFAHRUNG</div>
+            <h2 class="section-title" data-i18n="erfahrung.title">Lieferketten-Route</h2>
+          </div>
+          <div class="section-line-run"></div>
+          <div class="dim-annotation" data-i18n="erfahrung.dim">7 STATIONEN // 2022–2026</div>
+        </div>
+
+        <div class="erfahrung-route-container" id="erfahrung-route-container">
+          <!-- Vertical Dashed SVG Route Line -->
+          <svg class="route-svg-track" viewBox="0 0 4 1200" preserveAspectRatio="none">
+            <line x1="2" y1="0" x2="2" y2="1200" id="route-line-svg" />
+          </svg>
+
+          <div class="erfahrung-stations-list">
+            <!-- Station 1: BWT Pool Products -->
+            <div class="station-item reveal-on-scroll">
+              <div class="station-node">1</div>
+              <div class="station-card">
+                <div class="crosshair-corner crosshair-tl">+</div>
+                <div class="crosshair-corner crosshair-tr">+</div>
+                <div class="station-top-meta">
+                  <h3 class="station-role" data-i18n-html="erfahrung.bwtRole">Mitarbeiter Produktion &amp; Qualitätskontrolle</h3>
+                  <span class="station-date" data-i18n="erfahrung.bwtDate">01.2026 – Heute</span>
+                </div>
+                <div class="station-company" data-i18n="erfahrung.bwtCompany">BWT Pool Products GmbH, Zörbig (Deutschland)</div>
+                <ul class="station-bullets">
+                  <li data-i18n="erfahrung.bwtB1">Qualitätskontrolle von Fertigprodukten und Unterstützung der laufenden Produktionsprozesse</li>
+                  <li data-i18n="erfahrung.bwtB2">Bearbeitung und Zuschnitt von PVC-Materialien nach technischen Zeichnungen und Vorgaben</li>
+                  <li data-i18n="erfahrung.bwtB3">Vorbereitung und Durchführung spezieller Zuschnitte sowie Heißkeil- und Hochfrequenzschweißarbeiten</li>
+                  <li data-i18n="erfahrung.bwtB4">Unterstützung bei Material-, Bestands- und produktionsbezogenen Abläufen</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Station 2: Vitalgrün -->
+            <div class="station-item reveal-on-scroll">
+              <div class="station-node">2</div>
+              <div class="station-card">
+                <div class="crosshair-corner crosshair-tl">+</div>
+                <div class="crosshair-corner crosshair-tr">+</div>
+                <div class="station-top-meta">
+                  <h3 class="station-role" data-i18n-html="erfahrung.vitalRole">Mitgründer – Produkt- &amp; Geschäftsentwicklung</h3>
+                  <span class="station-date" data-i18n="erfahrung.vitalDate">Aktuell</span>
+                </div>
+                <div class="station-company" data-i18n="erfahrung.vitalCompany">Vitalgrün, Indien</div>
+                <ul class="station-bullets">
+                  <li data-i18n="erfahrung.vitalB1">Aufbau und Weiterentwicklung eines Geschäftsmodells im Bereich natürlicher Lebensmittel- und Pflanzenprodukte</li>
+                  <li data-i18n="erfahrung.vitalB2">Produktbeschaffung, Lieferantenrecherche, Produktentwicklung und Produktkalkulation</li>
+                  <li data-i18n="erfahrung.vitalB3">Entwicklung und Koordination von Beschaffungs-, Produktions-, Verpackungs- und Vertriebsprozessen</li>
+                  <li data-i18n="erfahrung.vitalB4">Recherche internationaler B2B-Kunden, Geschäftspartner und Absatzmöglichkeiten</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Station 3: Freelancer SCM -->
+            <div class="station-item reveal-on-scroll">
+              <div class="station-node">3</div>
+              <div class="station-card">
+                <div class="crosshair-corner crosshair-tl">+</div>
+                <div class="crosshair-corner crosshair-tr">+</div>
+                <div class="station-top-meta">
+                  <h3 class="station-role" data-i18n-html="erfahrung.freeRole">Freelancer – Supply Chain, Product Sourcing &amp; Operations</h3>
+                  <span class="station-date" data-i18n="erfahrung.freeDate">Aktuell</span>
+                </div>
+                <div class="station-company" data-i18n="erfahrung.freeCompany">Internationale / US-amerikanische Kunden</div>
+                <ul class="station-bullets">
+                  <li data-i18n="erfahrung.freeB1">Unterstützung verschiedener US-amerikanischer Unternehmen im Supply-Chain-Management und in operativen Geschäftsprozessen</li>
+                  <li data-i18n="erfahrung.freeB2">Product Sourcing, Lieferantenrecherche und Unterstützung bei der Auswahl geeigneter Produkte und Beschaffungslösungen</li>
+                  <li data-i18n="erfahrung.freeB3">Unterstützung bei Product Design, Produktentwicklung und operativer Umsetzung</li>
+                  <li data-i18n="erfahrung.freeB4">Koordination von Aufgaben entlang der Lieferkette von der Produktidee bis zur Beschaffung und Umsetzung</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Collapsible Older Stations 4 - 7 -->
+            <div class="older-stations-collapse" id="older-stations-collapse">
+              <!-- Station 4: DHL -->
+              <div class="station-item">
+                <div class="station-node">4</div>
+                <div class="station-card">
+                  <div class="station-top-meta">
+                    <h3 class="station-role" data-i18n="erfahrung.dhlRole">Zustellassistent</h3>
+                    <span class="station-date" data-i18n="erfahrung.dhlDate">09.2025 – 12.2025</span>
+                  </div>
+                  <div class="station-company" data-i18n="erfahrung.dhlCompany">DHL, Deutschland</div>
+                  <ul class="station-bullets">
+                    <li data-i18n="erfahrung.dhlB1">Routenplanung, pünktliche Lieferung und professionelle Kundenkommunikation mit Fokus auf eine sichere und effiziente Paketabwicklung</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Station 5: Ernsting's Family -->
+              <div class="station-item">
+                <div class="station-node">5</div>
+                <div class="station-card">
+                  <div class="station-top-meta">
+                    <h3 class="station-role" data-i18n-html="erfahrung.ernstRole">Mitarbeiter Warenannahme &amp; Lieferung</h3>
+                    <span class="station-date" data-i18n="erfahrung.ernstDate">07.2025 – 09.2025</span>
+                  </div>
+                  <div class="station-company" data-i18n="erfahrung.ernstCompany">Ernsting's Family, Deutschland</div>
+                  <ul class="station-bullets">
+                    <li data-i18n="erfahrung.ernstB1">Kontrolle eingehender Waren, Organisation von Filiallieferungen und enge Zusammenarbeit mit dem Logistikteam für einen reibungslosen Ablauf</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Station 6: Riddhi Pharma -->
+              <div class="station-item">
+                <div class="station-node">6</div>
+                <div class="station-card">
+                  <div class="station-top-meta">
+                    <h3 class="station-role" data-i18n-html="erfahrung.riddhiRole">Produktion &amp; Qualitätskontrolle</h3>
+                    <span class="station-date" data-i18n="erfahrung.riddhiDate">05.2022 – 11.2022</span>
+                  </div>
+                  <div class="station-company" data-i18n="erfahrung.riddhiCompany">Riddhi Pharma, Indien</div>
+                  <ul class="station-bullets">
+                    <li data-i18n="erfahrung.riddhiB1">Praktische Erfahrung in pharmazeutischer Produktion und Qualitätskontrolle sowie Unterstützung bei produktions- und qualitätsbezogenen Abläufen</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Station 7: Sun Pharma -->
+              <div class="station-item">
+                <div class="station-node">7</div>
+                <div class="station-card">
+                  <div class="station-top-meta">
+                    <h3 class="station-role" data-i18n="erfahrung.sunRole">Praktikum Qualitätssicherung</h3>
+                    <span class="station-date" data-i18n="erfahrung.sunDate">12.2022 – 05.2023</span>
+                  </div>
+                  <div class="station-company" data-i18n="erfahrung.sunCompany">Sun Pharma, Indien</div>
+                  <ul class="station-bullets">
+                    <li data-i18n="erfahrung.sunB1">Unterstützung im Bereich Qualitätssicherung mit Schwerpunkt auf Dokumentation, Qualitätsprozessen und pharmazeutischen Standards</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Toggle Button for Older Stations -->
+          <div class="toggle-older-stations-wrap">
+            <button class="btn-toggle-route btn-magnetic" id="btn-toggle-older-stations">
+              <span>+ Weitere Stationen anzeigen (DHL, Ernsting’s, Riddhi Pharma, Sun Pharma)</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         03 — AUSBILDUNG (DARK PETROL #0E2A2F SECTION)
+         ========================================================================== -->
+    <section class="section section-dark" id="ausbildung">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-editorial reveal-on-scroll">
+          <div>
+            <div class="section-num" style="color: var(--accent-orange);" data-i18n="ausbildung.sectionNum">03 — AUSBILDUNG</div>
+            <h2 class="section-title" data-i18n="ausbildung.title">Akademische Abschlüsse</h2>
+          </div>
+          <div class="section-line-run" style="background-color: var(--border-dark-section);"></div>
+          <div class="dim-annotation" style="color: var(--muted-on-dark);" data-i18n="ausbildung.dim">BERLIN // INDIEN</div>
+        </div>
+
+        <div class="ausbildung-grid">
+          <!-- Degree 1: MSc -->
+          <div class="ausbildung-item reveal-on-scroll">
+            <div class="huge-year-outline" data-year="2025">2025</div>
+            <div class="ausbildung-content">
+              <div class="ausbildung-date-mono">2023 – 2025</div>
+              <h3 class="ausbildung-degree" data-i18n="ausbildung.deg1Title">MSc Internationales Geschäftsmanagement</h3>
+              <div class="ausbildung-uni" data-i18n="ausbildung.deg1Uni">University of Europe for Applied Sciences, Berlin</div>
+              <p class="ausbildung-desc" data-i18n="ausbildung.deg1Desc">
+                Lieferkettenmanagement, Produktions- und Geschäftsplanung, Betriebs- und Prozessmanagement, Vertrieb und Geschäftsentwicklung, Marketing sowie internationale Geschäftsprozesse.
+              </p>
+            </div>
+          </div>
+
+          <!-- Degree 2: B.Pharm -->
+          <div class="ausbildung-item reveal-on-scroll">
+            <div class="huge-year-outline" data-year="2022">2022</div>
+            <div class="ausbildung-content">
+              <div class="ausbildung-date-mono">2018 – 2022</div>
+              <h3 class="ausbildung-degree" data-i18n="ausbildung.deg2Title">B.Pharm (Bachelor of Pharmacy)</h3>
+              <div class="ausbildung-uni" data-i18n="ausbildung.deg2Uni">Parul Universität, Indien</div>
+              <p class="ausbildung-desc" data-i18n="ausbildung.deg2Desc">
+                Qualitätssicherung, Arzneimittelentwicklung, Einhaltung gesetzlicher Vorschriften | Nebenfach: Arzneimittelproduktion.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         04 — FÄHIGKEITEN (TYPOGRAPHIC 2-COLUMN LISTS)
+         ========================================================================== -->
+    <section class="section" id="faehigkeiten">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-editorial reveal-on-scroll">
+          <div>
+            <div class="section-num" data-i18n="faehigkeiten.sectionNum">04 — FÄHIGKEITEN</div>
+            <h2 class="section-title" data-i18n-html="faehigkeiten.title">Kompetenz &amp; Systeme</h2>
+          </div>
+          <div class="section-line-run"></div>
+          <div class="dim-annotation" data-i18n-html="faehigkeiten.dim">METHODEN &amp; SOFTWARE</div>
+        </div>
+
+        <div class="faehigkeiten-grid">
+          <!-- Column 1: Schwerpunkte -->
+          <div class="reveal-on-scroll">
+            <h3 class="faehig-col-title" data-i18n="faehigkeiten.col1Title">Schwerpunkte / Fokus</h3>
+            <div class="faehig-typo-list">
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name" data-i18n="faehigkeiten.skill1">Produktionsplanung und Produktionsadministration</span>
+                <span class="dim-annotation">PP / ADMIN</span>
+              </div>
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name" data-i18n="faehigkeiten.skill2">Qualitätskontrolle und Produktionsunterstützung</span>
+                <span class="dim-annotation">QC / IPC</span>
+              </div>
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name" data-i18n="faehigkeiten.skill3">Import und Export von Materialien und Produkten</span>
+                <span class="dim-annotation">LOGISTIK</span>
+              </div>
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name" data-i18n="faehigkeiten.skill4">Lieferkettenmanagement und Beschaffungsprozesse</span>
+                <span class="dim-annotation">SCM</span>
+              </div>
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name" data-i18n="faehigkeiten.skill5">Produktbeschaffung und Lieferantenmanagement</span>
+                <span class="dim-annotation">SOURCING</span>
+              </div>
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name" data-i18n="faehigkeiten.skill6">CAPA (Corrective and Preventive Actions)</span>
+                <span class="dim-annotation">QUALITÄT</span>
+              </div>
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name" data-i18n="faehigkeiten.skill7">Abweichungsmanagement</span>
+                <span class="dim-annotation">DEVIATION</span>
+              </div>
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name" data-i18n="faehigkeiten.skill8">Risikomanagement und Kontinuierliche Prozessverbesserung</span>
+                <span class="dim-annotation">KVP / CIP</span>
+              </div>
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name" data-i18n="faehigkeiten.skill9">KANBAN, Lean Management</span>
+                <span class="dim-annotation">LEAN</span>
+              </div>
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name" data-i18n="faehigkeiten.skill10">Technisches Verständnis und Arbeiten nach Zeichnungen und Vorgaben</span>
+                <span class="dim-annotation">ZEICHNUNG</span>
+              </div>
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name" data-i18n="faehigkeiten.skill11">Teamarbeit, Eigeninitiative und selbstständige Arbeitsweise</span>
+                <span class="dim-annotation">SOFT SKILLS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Technische Fähigkeiten with filled / half-filled dots -->
+          <div class="reveal-on-scroll">
+            <h3 class="faehig-col-title" data-i18n="faehigkeiten.col2Title">Technische Fähigkeiten</h3>
+            <div class="faehig-typo-list">
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name">Microsoft Excel &amp; VBA</span>
+                <div class="status-indicator-wrap">
+                  <span class="status-dot-filled" title="gute Kenntnisse"></span>
+                  <span class="status-text-mono" data-i18n="faehigkeiten.profGute">gute Kenntnisse</span>
+                </div>
+              </div>
+
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name">Microsoft 365 / Office (PowerPoint, Word)</span>
+                <div class="status-indicator-wrap">
+                  <span class="status-dot-filled" title="gute Kenntnisse"></span>
+                  <span class="status-text-mono" data-i18n="faehigkeiten.profGute">gute Kenntnisse</span>
+                </div>
+              </div>
+
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name">Microsoft Dynamics 365 Finance &amp; Operations</span>
+                <div class="status-indicator-wrap">
+                  <span class="status-dot-half" title="in Vertiefung"></span>
+                  <span class="status-text-mono" data-i18n="faehigkeiten.profVertiefung">in Vertiefung</span>
+                </div>
+              </div>
+
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name">SAP ERP</span>
+                <div class="status-indicator-wrap">
+                  <span class="status-dot-half" title="in Weiterbildung"></span>
+                  <span class="status-text-mono" data-i18n="faehigkeiten.profWeiter">in Weiterbildung</span>
+                </div>
+              </div>
+
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name">Microsoft Power BI</span>
+                <div class="status-indicator-wrap">
+                  <span class="status-dot-half" title="in Weiterbildung"></span>
+                  <span class="status-text-mono" data-i18n="faehigkeiten.profWeiter">in Weiterbildung</span>
+                </div>
+              </div>
+
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name">ERP-gestützte Produktionsplanung und Materialverwaltung</span>
+                <div class="status-indicator-wrap">
+                  <span class="status-dot-half" title="in Vertiefung"></span>
+                  <span class="status-text-mono" data-i18n="faehigkeiten.profVertiefung">in Vertiefung</span>
+                </div>
+              </div>
+
+              <div class="faehig-typo-item">
+                <span class="faehig-item-name">KI-gestützte Anwendungen (z. B. Microsoft Copilot)</span>
+                <div class="status-indicator-wrap">
+                  <span class="status-dot-half" title="in Weiterbildung"></span>
+                  <span class="status-text-mono" data-i18n="faehigkeiten.profWeiter">in Weiterbildung</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         05 — PROJEKTE & ABSCHLUSSARBEITEN (EDITORIAL NUMBERED LIST)
+         ========================================================================== -->
+    <section class="section" id="projekte" style="border-top: var(--border-technical);">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-editorial reveal-on-scroll">
+          <div>
+            <div class="section-num" data-i18n="projekte.sectionNum">05 — PROJEKTE</div>
+            <h2 class="section-title" data-i18n-html="projekte.title">Projekte &amp; Abschlussarbeiten</h2>
+          </div>
+          <div class="section-line-run"></div>
+          <div class="dim-annotation" data-i18n="projekte.dim">4 HIGHLIGHTS</div>
+        </div>
+
+        <div class="projekte-editorial-list reveal-on-scroll">
+          <!-- Row 1 -->
+          <div class="projekt-editorial-row">
+            <div class="projekt-num">01</div>
+            <div>
+              <h3 class="projekt-body-title" data-i18n="projekte.p1Title">Vitalgrün – Geschäfts- und Produktentwicklung</h3>
+              <p class="projekt-body-desc" data-i18n-html="projekte.p1Desc">Laufendes Projekt · Aufbau eines nachhaltigen Geschäftsmodells für natürliche Lebensmittel &amp; Pflanzenprodukte, B2B-Vertrieb und End-to-End-Produktkalkulation.</p>
+            </div>
+            <div class="projekt-arrow-icon">→</div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="projekt-editorial-row">
+            <div class="projekt-num">02</div>
+            <div>
+              <h3 class="projekt-body-title" data-i18n="projekte.p2Title">Internationale Supply-Chain-Projekte – Freelancer</h3>
+              <p class="projekt-body-desc" data-i18n="projekte.p2Desc">Laufend · Beratung US-amerikanischer Unternehmen in Produktbeschaffung, Lieferantenrecherche, Product Design und Lieferkettenkoordination.</p>
+            </div>
+            <div class="projekt-arrow-icon">→</div>
+          </div>
+
+          <!-- Row 3 -->
+          <div class="projekt-editorial-row">
+            <div class="projekt-num">03</div>
+            <div>
+              <h3 class="projekt-body-title" data-i18n="projekte.p3Title">Komplexität der pharmazeutischen Lieferkette und ihre Auswirkungen auf die Verbraucher</h3>
+              <p class="projekt-body-desc" data-i18n="projekte.p3Desc">Masterarbeit 2025 · Analyse von Vulnerabilitäten, Kaltkettenüberwachung, GDP-Konformität und Versorgungsengpässen in Europa.</p>
+            </div>
+            <div class="projekt-arrow-icon">→</div>
+          </div>
+
+          <!-- Row 4 -->
+          <div class="projekt-editorial-row">
+            <div class="projekt-num">04</div>
+            <div>
+              <h3 class="projekt-body-title" data-i18n="projekte.p4Title">Entwicklung und Charakterisierung von Aceclofenac Medicated Lollipops</h3>
+              <p class="projekt-body-desc" data-i18n="projekte.p4Desc">Abschlussforschung 2022 · Formulierungsoptimierung, Charakterisierung der Wirkstofffreisetzung via HPLC, FTIR und DSC sowie Qualitätskontrollprüfungen.</p>
+            </div>
+            <div class="projekt-arrow-icon">→</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         06 — ZERTIFIKATE & SPRACHEN ("STAMP / TICKET" STYLE)
+         ========================================================================== -->
+    <section class="section" id="zertifikate" style="border-top: var(--border-technical);">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-editorial reveal-on-scroll">
+          <div>
+            <div class="section-num" data-i18n="zertifikate.sectionNum">06 — ZERTIFIKATE</div>
+            <h2 class="section-title" data-i18n-html="zertifikate.title">Bescheinigungen &amp; Sprachen</h2>
+          </div>
+          <div class="section-line-run"></div>
+          <div class="dim-annotation" data-i18n="zertifikate.dim">QUALITÄTSNACHWEISE</div>
+        </div>
+
+        <!-- 6 Stamp / Ticket Cards -->
+        <div class="zertifikate-grid reveal-on-scroll">
+          <!-- Stamp 1 -->
+          <div class="stamp-ticket-card">
+            <div class="crosshair-corner crosshair-tl">+</div>
+            <div class="crosshair-corner crosshair-br">+</div>
+            <span class="stamp-mark" data-i18n="zertifikate.badgeZert">LAUFEND</span>
+            <h3 class="stamp-title" data-i18n-html="zertifikate.z1Title">Microsoft Dynamics 365 Finance &amp; Operations</h3>
+            <div class="stamp-issuer" data-i18n="zertifikate.z1Issuer">WEITERBILDUNG // ERP</div>
+            <p class="stamp-bullets" data-i18n="zertifikate.z1Desc">Schwerpunkt: Produktionsaufträge, Stammdaten, Stücklisten (BOMs), Materialverwaltung und Produktionsplanung.</p>
+          </div>
+
+          <!-- Stamp 2 -->
+          <div class="stamp-ticket-card">
+            <div class="crosshair-corner crosshair-tl">+</div>
+            <div class="crosshair-corner crosshair-br">+</div>
+            <span class="stamp-mark" data-i18n="zertifikate.badgeZert">LAUFEND</span>
+            <h3 class="stamp-title" data-i18n-html="zertifikate.z2Title">Microsoft Dynamics 365 Supply Chain Management</h3>
+            <div class="stamp-issuer" data-i18n="zertifikate.z2Issuer">WEITERBILDUNG // SCM</div>
+            <p class="stamp-bullets" data-i18n="zertifikate.z2Desc">Schwerpunkt: Lagerverwaltung, Beschaffung, Bestandsmanagement und Master Planning.</p>
+          </div>
+
+          <!-- Stamp 3 -->
+          <div class="stamp-ticket-card">
+            <div class="crosshair-corner crosshair-tl">+</div>
+            <div class="crosshair-corner crosshair-br">+</div>
+            <span class="stamp-mark" data-i18n="zertifikate.badgeStd">STANDARD</span>
+            <h3 class="stamp-title" data-i18n="zertifikate.z3Title">ISO 9001:2001 – Grundlagen des Qualitätsmanagements</h3>
+            <div class="stamp-issuer" data-i18n="zertifikate.z3Issuer">QUALITÄTSSYSTEME</div>
+            <p class="stamp-bullets" data-i18n="zertifikate.z3Desc">Grundsätze des prozessorientierten Qualitätsmanagements, Auditierung und KVP.</p>
+          </div>
+
+          <!-- Stamp 4 -->
+          <div class="stamp-ticket-card">
+            <div class="crosshair-corner crosshair-tl">+</div>
+            <div class="crosshair-corner crosshair-br">+</div>
+            <span class="stamp-mark" data-i18n="zertifikate.badgeFach">FACHNACHWEIS</span>
+            <h3 class="stamp-title" data-i18n="zertifikate.z4Title">Bedeutung der Kalibrierung und Validierung in der Pharmazie</h3>
+            <div class="stamp-issuer" data-i18n="zertifikate.z4Issuer">VADODARA, GUJARAT</div>
+            <p class="stamp-bullets" data-i18n="zertifikate.z4Desc">Kalibrierung von Messgeräten und Prüfsystemen sowie Qualifizierungsvorgaben (IQ/OQ/PQ).</p>
+          </div>
+
+          <!-- Stamp 5 -->
+          <div class="stamp-ticket-card">
+            <div class="crosshair-corner crosshair-tl">+</div>
+            <div class="crosshair-corner crosshair-br">+</div>
+            <span class="stamp-mark" data-i18n="zertifikate.badgeGmp">GMP COMPLIANCE</span>
+            <h3 class="stamp-title" data-i18n="zertifikate.z5Title">Gute Herstellungspraxis (GMP)</h3>
+            <div class="stamp-issuer" data-i18n="zertifikate.z5Issuer">HERSTELLUNGSSCHULUNG</div>
+            <p class="stamp-bullets" data-i18n-html="zertifikate.z5Desc">1. Bedeutung von Produktqualität, Sicherheit und Compliance · 2. Sicherheitsmaßnahmen für Schulung und Dokumentation · 3. Abweichungen &amp; Risikomanagement.</p>
+          </div>
+
+          <!-- Stamp 6 -->
+          <div class="stamp-ticket-card">
+            <div class="crosshair-corner crosshair-tl">+</div>
+            <div class="crosshair-corner crosshair-br">+</div>
+            <span class="stamp-mark" data-i18n="zertifikate.badgeWs">WORKSHOP</span>
+            <h3 class="stamp-title" data-i18n="zertifikate.z6Title">Workshop "Good To Great- SO"</h3>
+            <div class="stamp-issuer" data-i18n="zertifikate.z6Issuer">AJANTA PHARMA LTD.</div>
+            <p class="stamp-bullets" data-i18n="zertifikate.z6Desc">Operative Exzellenz in der Fertigung, Lean-Prinzipien und organisatorische Qualitätskultur.</p>
+          </div>
+        </div>
+
+        <!-- Sprachen (Typographic Inline Strip) -->
+        <div class="sprachen-strip reveal-on-scroll">
+          <div class="sprache-item">
+            <div class="sprache-name" data-i18n="zertifikate.langDeName">Deutsch</div>
+            <div class="sprache-level-mono" data-i18n="zertifikate.langDeLevel">B2 — Sicher im Berufsalltag</div>
+            <div class="sprache-bar-track">
+              <div class="sprache-bar-fill" style="width: 80%;"></div>
+            </div>
+          </div>
+
+          <div class="sprache-item">
+            <div class="sprache-name" data-i18n="zertifikate.langEnName">Englisch</div>
+            <div class="sprache-level-mono" data-i18n="zertifikate.langEnLevel">Muttersprache — Verhandlungssicher</div>
+            <div class="sprache-bar-track">
+              <div class="sprache-bar-fill" style="width: 100%;"></div>
+            </div>
+          </div>
+
+          <div class="sprache-item">
+            <div class="sprache-name" data-i18n="zertifikate.langHiName">Hindi</div>
+            <div class="sprache-level-mono" data-i18n="zertifikate.langHiLevel">Fließend</div>
+            <div class="sprache-bar-track">
+              <div class="sprache-bar-fill" style="width: 95%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         07 — ALS NÄCHSTES ("GEPLANTE WEITERENTWICKLUNG")
+         ========================================================================== -->
+    <section class="section" id="als-naechstes" style="border-top: var(--border-technical);">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-editorial reveal-on-scroll">
+          <div>
+            <div class="section-num" data-i18n="alsNaechstes.sectionNum">07 — ALS NÄCHSTES</div>
+            <h2 class="section-title" data-i18n="alsNaechstes.title">Geplante Weiterentwicklung</h2>
+          </div>
+          <div class="section-line-run"></div>
+          <div class="tech-label" style="font-size: 0.85rem;" data-i18n="alsNaechstes.dim">ZIELE // 2026+</div>
+        </div>
+
+        <p style="font-size: 1.05rem; color: var(--muted-text); max-width: 680px;" class="reveal-on-scroll" data-i18n="kontakt.subline">
+          "Bereit für neue Herausforderungen in Produktionsleitung, Qualitätskontrolle oder Supply Chain Management."
+        </p>
+
+        <!-- 3 Milestones on Horizontal Roadmap -->
+        <div class="als-naechstes-timeline reveal-on-scroll">
+          <div class="milestone-item">
+            <div class="milestone-node"></div>
+            <div class="dim-annotation" style="margin-bottom: 0.35rem;" data-i18n="alsNaechstes.m1Tag">MEILENSTEIN 01 // ERP</div>
+            <h3 class="milestone-title" data-i18n-html="alsNaechstes.m1Title">Vertiefung Microsoft Dynamics 365 F&amp;O</h3>
+            <p class="milestone-desc" data-i18n="alsNaechstes.m1Desc">Umfassende Beherrschung von Produktionsmodulen, Stücklistenauflösung, Dispositionsläufen (MRP) und systemischer Kostenkalkulation.</p>
+          </div>
+
+          <div class="milestone-item">
+            <div class="milestone-node"></div>
+            <div class="dim-annotation" style="margin-bottom: 0.35rem;" data-i18n="alsNaechstes.m2Tag">MEILENSTEIN 02 // SCM</div>
+            <h3 class="milestone-title" data-i18n-html="alsNaechstes.m2Title">Produktionsplanung &amp; Prozessoptimierung</h3>
+            <p class="milestone-desc" data-i18n="alsNaechstes.m2Desc">Weiterentwicklung in der operativen Fertigungsleitung, KANBAN-Steuerung und Schnittstellenoptimierung zwischen Beschaffung und Fertigung.</p>
+          </div>
+
+          <div class="milestone-item">
+            <div class="milestone-node"></div>
+            <div class="dim-annotation" style="margin-bottom: 0.35rem;" data-i18n="alsNaechstes.m3Tag">MEILENSTEIN 03 // ANALYTICS</div>
+            <h3 class="milestone-title" data-i18n-html="alsNaechstes.m3Title">Power BI, SAP &amp; Datenbasierte Optimierung</h3>
+            <p class="milestone-desc" data-i18n="alsNaechstes.m3Desc">Aufbau interaktiver Dashboards zur Fertigungseffizienz (OEE), Lieferantentreue und proaktiven Qualitätskontroll-Metriken.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         08 — KONTAKT (DARK PETROL #0E2A2F SECTION)
+         ========================================================================== -->
+    <section class="section section-dark" id="kontakt">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-editorial reveal-on-scroll">
+          <div>
+            <div class="section-num" style="color: var(--accent-orange);" data-i18n="kontakt.sectionNum">08 — KONTAKT</div>
+            <h2 class="section-title" data-i18n="kontakt.title">Gespräch beginnen</h2>
+          </div>
+          <div class="section-line-run" style="background-color: var(--border-dark-section);"></div>
+          <div class="dim-annotation" style="color: var(--muted-on-dark);" data-i18n="kontakt.infoTitle">DIREKTER KONTAKT</div>
+        </div>
+
+        <div class="kontakt-grid reveal-on-scroll">
+          <!-- Left Column -->
+          <div>
+            <h3 class="kontakt-giant-heading">Lassen Sie uns sprechen.</h3>
+            
+            <a href="mailto:bpatel7765@gmail.com" class="kontakt-big-email">
+              bpatel7765@gmail.com
+            </a>
+
+            <div class="kontakt-direct-info">
+              <div>Telefon: <a href="tel:+491778013515">+49 1778013515</a></div>
+              <div>Standort: Dessau, Deutschland</div>
+              <div style="margin-top: 1rem; font-size: 0.88rem; color: var(--muted-on-dark); line-height: 1.6;">
+                Bereit für Positionen in Produktion, Qualitätskontrolle, ERP-Administration und Supply Chain Management in Dessau, Leipzig, Halle, Berlin sowie bundesweit.
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Simple Editorial Form -->
+          <div>
+            <form class="kontakt-form" id="kontakt-form">
+              <div class="form-group">
+                <label for="kontakt-name" class="form-label" data-i18n="kontakt.formNameLabel">Ihr Name *</label>
+                <input type="text" id="kontakt-name" class="form-input" data-i18n-placeholder="kontakt.formNamePlaceholder" placeholder="z.B. Dr. Thomas Weber" required>
+              </div>
+
+              <div class="form-group">
+                <label for="kontakt-email" class="form-label" data-i18n="kontakt.formEmailLabel">Ihre E-Mail-Adresse *</label>
+                <input type="email" id="kontakt-email" class="form-input" data-i18n-placeholder="kontakt.formEmailPlaceholder" placeholder="name@unternehmen.de" required>
+              </div>
+
+              <div class="form-group">
+                <label for="kontakt-message" class="form-label" data-i18n="kontakt.formMsgLabel">Ihre Nachricht *</label>
+                <textarea id="kontakt-message" class="form-textarea" data-i18n-placeholder="kontakt.formMsgPlaceholder" placeholder="Guten Tag Herr Patel, wir suchen Verstärkung für..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-industrial btn-filled-orange btn-magnetic" style="align-self: flex-start; margin-top: 0.5rem;">
+                <span data-i18n="kontakt.btnSend">Nachricht senden →</span>
+              </button>
+
+              <div id="kontakt-feedback" style="display: none; font-size: 0.9rem; line-height: 1.5; margin-top: 1rem;"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <span>© 2026 Bhushan Patel // Werkbank &amp; Lieferkette. <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></span>
+      </div>
+      <div>
+        <a href="#hero" class="footer-back-to-top" data-i18n="footer.backToTop">↑ Zurück zum Seitenanfang</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>
